@@ -1,9 +1,11 @@
+/* Univeral Page Format */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Main Page Poster */
 .hero {
     height: 800px;
     width: 100%;
@@ -13,10 +15,12 @@
     background-position: center;
 }
 
+/* Body page format */
 body {
     background-color: #d9dcd6;
 }
 
+/* class selector header format */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,12 +28,14 @@ body {
     color: #ffffff;
 }
 
+/* class selector Header format for text weight, size, and color */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/* class selelctor Header format for the list of links on the web page */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,36 +44,43 @@ body {
     font-size: 20px;
 }
 
+/* class selector Header formate for the links size and location on the web page */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Anchor element for hyperlinks formating embeded in the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* class selector Artical Boxes under the main poster of the web page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* class selector Picture to the left of the artical */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class selector Picture to the right of the artical */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Paragraph settings of the articals */
 p {
     font-size: 16px;
 }
 
+/* class selector Artical Boxes formating under the main poster of the web page */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,15 +90,18 @@ p {
     color: #ffffff;
 }
 
+/* class selector Artical Boxes Picture size under the main poster of the web page */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* class selector Artical Boxes Font size under the main poster of the web page */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class selector Artical Box to the right of the web page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,6 +129,7 @@ p {
     max-width: 150px;
 }
 
+/* Footer of the Web page */
 .footer {
     padding: 30px;
     clear: both;
@@ -121,6 +138,9 @@ p {
     font-size: 20px;
 }
 
+/* Footer font size */
 .footer h2 {
     font-size: 20px;
 }
+
+/* End of the CSS file */
